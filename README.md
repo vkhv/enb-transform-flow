@@ -21,7 +21,7 @@
 **Пример**
 
 ```javascript
-[ require('enb-transform-flow/techs/tarnsform-flow'), {
+[ require('enb-transform-flow/techs/transform-flow'), {
 		sourceSuffixes: ['js'],
 		target: '?.js',
 		transformators: [
@@ -49,7 +49,7 @@
 
 
 ```javascript
-[ require('enb-transform-flow/techs/tarnsform-flow'), {
+[ require('enb-transform-flow/techs/transform-flow'), {
      sourceSuffixes: ['js'],
      target: '_?.js',
      transformators: [
